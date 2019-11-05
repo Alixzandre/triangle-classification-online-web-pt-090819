@@ -9,15 +9,12 @@ class Triangle
   end
   
   def kind 
-    
-    if (a == b == c)
+    if (a = b = c)
       :equilateral
-    elsif (a == b != c)||(a != b == c)||(a == b != c)
+    elsif (a = b != c)||(a != b = c)||(a = b != c)
       :isosceles
-    elsif (a != b! == c)
+    elsif (a != b! = c)
       :scalene
-    
-  
   end
   
   
