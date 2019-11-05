@@ -13,7 +13,7 @@ class Triangle
       :equilateral
     elsif (a = b != c)||(a != b = c)||(a = b != c)
       :isosceles
-    elsif (a != b! = c)
+    elsif (a != b! == c)
       :scalene
   end
   
